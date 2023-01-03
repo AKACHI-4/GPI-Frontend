@@ -1,2 +1,8 @@
-# College_MiniProject
-This repo consists of all files and directories used for my 3rd sem college project. 
+# Hare Krishna 🌼
+
+## G-PI
+A web application used to manage attendance student under a particular radius from the current location of Admin.
+
+Currently on the way to making it. 
+
+
