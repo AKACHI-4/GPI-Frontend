@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Tracker</title>
+    <title>G-PI</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
-    <h1 class="heading">User Location Tracker using Google Map APIs</h1>
-    
+    <!-- Header -->
+    <header class="header" >
+        <nav class="nav container">
+            <h1 class="logo">G-PI</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item"><a href="">About</a></li>
+                <li class="nav-item"><a href="">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
     <div id="map"></div>
-    
-    <script src="./index.js" defer></script>
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU9KZAC6XtBdwsz1OvvF8TUFHkTqrB2MM&callback=initMap"></script>
 </script>
