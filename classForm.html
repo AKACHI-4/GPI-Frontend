@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,600&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@1,400&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"/>
+  </head>
+  <body>
+    <div class="relative bg-gray-700 w-full h-[1024px] overflow-hidden text-left text-base text-colors-neutral-gray-4 font-button-text-bold">
+      <div class="absolute top-[calc(50%_-_380px)] left-[calc(50%_+_63px)] w-[514px] h-[797px]">
+        <div class="absolute top-[calc(50%_-_398.5px)] left-[calc(50%_-_257px)] rounded-large bg-gray-800 box-border w-[514px] h-[797px] border-[2px] border-solid border-gray-200">
+        </div>
+        <div class="absolute top-[calc(50%_+_317.5px)] left-[calc(50%_-_219px)] rounded-base bg-indigo-100 w-[244px] h-[49px] cursor-pointer text-neutral-colors-white" id="generateLinkContainer">
+          <div class="absolute h-[46.61%] w-[87.5%] top-[26.69%] right-[6.25%] bottom-[26.69%] left-[6.25%]">
+            <img
+              class="absolute h-[99.3%] w-[10.58%] top-[0.7%] right-[89.42%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+              alt=""
+              src="public/vector.svg"
+            /><b class="absolute top-[0px] left-[37.5px] leading-[20px]"
+              >Generate Class Link</b
+            >
+          </div>
+          <div
+            class="absolute top-[0px] left-[278px] rounded-base bg-indigo-100 w-[159px] h-[49px] cursor-pointer"
+            id="enterClass"
+          >
+            <div
+              class="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_50.5px)] w-[101px] h-5"
+            >
+              <b
+                class="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_50.5px)] leading-[20px]"
+                >Enter Class</b
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute top-[calc(50%_-_298.5px)] left-[calc(50%_-_219px)] w-[438px] h-[560px] text-xs font-abeezee"
+        >
+          <div
+            class="absolute top-[calc(50%_+_230px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Max Radius ( in meter )</i
+            >
+          </div>
+          <div
+            class="absolute top-[calc(50%_+_162px)] left-[calc(50%_-_163px)] w-[305px] h-[41px] text-neutral-colors-white font-button-text-bold"
+          >
+            <div
+              class="absolute top-[calc(50%_-_20.5px)] left-[calc(50%_+_43.5px)] rounded-base bg-indigo-100 w-[109px] h-[41px]"
+            >
+              <div
+                class="absolute h-[42.55%] w-[57.8%] top-[29.27%] right-[18.35%] bottom-[28.19%] left-[23.85%]"
+              >
+                <div
+                  class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]"
+                >
+                  <img
+                    class="absolute h-[97.45%] w-[23.81%] top-[0%] right-[0%] bottom-[2.55%] left-[76.19%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="public/group.svg"
+                  /><b
+                    class="absolute top-[0.44px] left-[0px] leading-[20px] flex items-center w-[43px] h-[17px]"
+                    >Share</b
+                  >
+                </div>
+              </div>
+            </div>
+            <i
+              class="absolute top-[calc(50%_-_7.5px)] left-[calc(50%_-_152.5px)] leading-[18px] flex font-abeezee text-colors-neutral-gray-4 items-center w-[167px]"
+              >Click to Share Location</i
+            >
+          </div>
+          <div
+            class="absolute top-[calc(50%_+_85px)] left-[calc(50%_-_218px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Subject Code</i
+            >
+          </div>
+          <div
+            class="absolute top-[calc(50%_+_12px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Subject</i
+            >
+          </div>
+          <div
+            class="absolute top-[calc(50%_-_61px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Section
+            </i>
+          </div>
+          <div
+            class="absolute top-[calc(50%_-_134px)] left-[calc(50%_-_218px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Course</i
+            >
+          </div>
+          <div
+            class="absolute top-[calc(50%_-_207px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Email</i
+            >
+          </div>
+          <div
+            class="absolute top-[calc(50%_-_280px)] left-[calc(50%_-_218px)] w-[437px] h-[50px] overflow-hidden"
+          >
+            <div
+              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
+            ></div>
+            <i
+              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
+              >Name</i
+            >
+          </div>
+        </div>
+        <b
+          class="absolute top-[calc(50%_-_352.5px)] left-[calc(50%_-_211px)] text-2xl leading-[18px] flex font-arial items-center w-[285px]"
+          >Class Form</b
+        >
+      </div>
+      <div
+        class="absolute top-[calc(50%_-_204px)] left-[calc(50%_-_490px)] w-[358px] h-[464px] text-gray-400"
+      >
+        <img
+          class="absolute top-[calc(50%_-_74px)] left-[calc(50%_-_153px)] w-[305.15px] h-[306px] object-cover"
+          alt=""
+          src="public/map-image@2x.png"
+        />
+        <div
+          class="absolute top-[calc(50%_-_181px)] left-[calc(50%_-_179px)] leading-[25px] flex items-center w-[338px]"
+        >
+          Share location Feature will help you to monitor attendance of class
+          attendees
+        </div>
+        <i
+          class="absolute top-[calc(50%_-_232px)] left-[calc(50%_-_179px)] text-xl leading-[25px] flex font-semibold text-neutral-colors-white items-center w-[358px]"
+          >Create your class in few clicks</i
+        >
+      </div>
+      <div
+        class="absolute top-[3px] left-[0px] w-[1440px] h-[78px] text-sm text-neutral-colors-white"
+      >
+        <div
+          class="absolute top-[77.5px] left-[-0.5px] bg-gray-100 box-border w-[1441px] h-px border-t-[1px] border-solid border-gray-600"
+        ></div>
+        <div
+          class="absolute top-[0px] left-[0px] w-[1440px] h-[78px] overflow-hidden"
+        >
+          <div
+            class="absolute top-[calc(50%_-_11px)] left-[calc(50%_+_298px)] w-[340px] h-[21px]"
+          >
+            <div
+              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_+_104px)] inline-block w-[66px] h-[21px] cursor-pointer"
+              id="loginText"
+            >
+              Login
+            </div>
+            <div
+              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_33px)] inline-block w-[66px] h-[21px]"
+            >
+              About
+            </div>
+            <div
+              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_170px)] inline-block w-[66px] h-[21px]"
+            >
+              Home
+            </div>
+          </div>
+        </div>
+        <img
+          class="absolute top-[16px] left-[108px] w-10 h-[40.82px] overflow-hidden"
+          alt=""
+          src="public/zrx-1.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var enterClass = document.getElementById("enterClass");
+      if (enterClass) {
+        enterClass.addEventListener("click", function (e) {
+          window.location.href = "./class-room.html";
+        });
+      }
+      
+      var generateLinkContainer = document.getElementById("generateLinkContainer");
+      if (generateLinkContainer) {
+        generateLinkContainer.addEventListener("click", function (e) {
+          window.location.href = "./student-form.html";
+        });
+      }
+      
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>
