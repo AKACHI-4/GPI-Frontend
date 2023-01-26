@@ -9,7 +9,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"/>
   </head>
   <body>
-    <div class="relative bg-gray-700 w-full h-[1024px] overflow-hidden text-left text-base text-colors-neutral-gray-4 font-button-text-bold">
+    <section class="relative bg-gray-700 w-full h-[1024px] overflow-hidden text-left text-base text-colors-neutral-gray-4 font-button-text-bold">
+      <!-- navbar -->
+      <nav class="absolute top-[calc(50%_-_510px)] left-[calc(50%_-_720px)] w-[1440px] h-[70px] text-left text-sm">
+        <img class="absolute top-[calc(50%_-_23px)] left-[calc(50%_-_612px)] w-10 h-[35px] overflow-hidden" alt="Logo" src="public/zrx-1.svg"/>
+        <div class="absolute top-[0px] left-[0px] w-[1440px] h-[70px] overflow-hidden">
+          <div class="absolute top-[calc(50%_-_13px)] left-[calc(50%_+_298px)] w-[340px] h-[20px]">
+            <div class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_170px)] inline-block w-[66px] h-[21px]">
+              Home
+            </div>
+            <div class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_33px)] inline-block w-[66px] h-[21px]">
+              About
+            </div>
+            <div class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_+_104px)] inline-block w-[66px] h-[21px] cursor-pointer" id="loginText">
+              Login
+            </div>
+          </div>
+        </div>
+        <div class="absolute top-[63px] left-[-0.5px] bg-gray-500 w-[1440px] h-px"></div>
+      </nav>
+      <!-- Right Form Part -->
       <div class="absolute top-[calc(50%_-_380px)] left-[calc(50%_+_63px)] w-[514px] h-[797px]">
         <div class="absolute top-[calc(50%_-_398.5px)] left-[calc(50%_-_257px)] rounded-large bg-gray-800 box-border w-[514px] h-[797px] border-[2px] border-solid border-gray-200">
         </div>
@@ -19,195 +38,98 @@
               class="absolute h-[99.3%] w-[10.58%] top-[0.7%] right-[89.42%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
               alt=""
               src="public/vector.svg"
-            /><b class="absolute top-[0px] left-[37.5px] leading-[20px]"
-              >Generate Class Link</b
-            >
+            />
+            <b class="absolute top-[0px] left-[37.5px] leading-[20px]">
+              Generate Class Link
+            </b>
           </div>
-          <div
-            class="absolute top-[0px] left-[278px] rounded-base bg-indigo-100 w-[159px] h-[49px] cursor-pointer"
-            id="enterClass"
-          >
-            <div
-              class="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_50.5px)] w-[101px] h-5"
-            >
-              <b
-                class="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_50.5px)] leading-[20px]"
-                >Enter Class</b
-              >
+          <div class="absolute top-[0px] left-[278px] rounded-base bg-indigo-100 w-[159px] h-[49px] cursor-pointer" id="enterClass">
+            <div class="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_50.5px)] w-[101px] h-5">
+              <b class="absolute top-[calc(50%_-_10px)] left-[calc(50%_-_50.5px)] leading-[20px]">Enter Class</b>
             </div>
           </div>
         </div>
-        <div
-          class="absolute top-[calc(50%_-_298.5px)] left-[calc(50%_-_219px)] w-[438px] h-[560px] text-xs font-abeezee"
-        >
-          <div
-            class="absolute top-[calc(50%_+_230px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Max Radius ( in meter )</i
-            >
+
+        <div class="absolute top-[calc(50%_-_298.5px)] left-[calc(50%_-_219px)] w-[480px] h-[560px] text-xs font-abeezee">
+          <!-- Heading -->
+          <b class="absolute top-[calc(50%_-_330px)] left-[calc(50%_-_105px)] text-2xl leading-[18px] flex font-arial items-center text-center w-[285px]">
+            Class Form
+          </b>
+          <!-- Name -->
+          <div class="absolute top-[calc(50%_-_280px)] left-[calc(50%_-_252px)] w-[456px] h-[72px]  overflow-hidden">
+            <input class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Name</label>
           </div>
-          <div
-            class="absolute top-[calc(50%_+_162px)] left-[calc(50%_-_163px)] w-[305px] h-[41px] text-neutral-colors-white font-button-text-bold"
-          >
-            <div
-              class="absolute top-[calc(50%_-_20.5px)] left-[calc(50%_+_43.5px)] rounded-base bg-indigo-100 w-[109px] h-[41px]"
-            >
-              <div
-                class="absolute h-[42.55%] w-[57.8%] top-[29.27%] right-[18.35%] bottom-[28.19%] left-[23.85%]"
-              >
-                <div
-                  class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]"
-                >
+          <!-- Email -->
+          <div class="absolute top-[calc(50%_-_208px)] left-[calc(50%_-_252px)] w-[456px] h-[72px] overflow-hidden">
+            <input type="email" class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Email</label>
+          </div>
+          <!-- Course -->
+          <div class="absolute top-[calc(50%_-_136px)] left-[calc(50%_-_252px)] w-[456px] h-[72px] overflow-hidden">
+            <input class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Course</label>
+          </div>
+          <!-- Section -->
+          <div class="absolute top-[calc(50%_-_66px)] left-[calc(50%_-_252px)] w-[456px] h-[72px] overflow-hidden">
+            <input class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Section</label>
+          </div>
+          <!-- Subject -->
+          <div class="absolute top-[calc(50%_+_4px)] left-[calc(50%_-_252px)] w-[456px] h-[72px] overflow-hidden">
+            <input class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Subject</label>
+          </div>
+          <!-- Subject Code -->
+          <div class="relative top-[calc(50%_+_74px)] left-[calc(50%_-_252px)] w-[456px] h-[72px] overflow-hidden">
+            <input class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Subject Code</label>
+          </div>
+          <!-- Location Share -->
+          <div class="absolute top-[calc(50%_+_160px)] left-[calc(50%_-_163px)] w-[305px] h-[41px] text-neutral-colors-white font-button-text-bold">
+            <!-- Click Message -->
+            <p class="absolute top-[calc(50%_-_22px)] left-[calc(50%_-_180px)] leading-[18px] flex font-abeezee text-colors-neutral-gray-4 items-center w-[167px]">
+              Click to Share Location
+            </p>
+            <!-- Share Location Button -->
+            <button id="ShareLocation" class="absolute top-[calc(50%_-_20.5px)] left-[calc(50%_+_46px)] rounded-base bg-blue-500 hover:bg-blue-600 w-[109px] h-[40px] text-white border-none">
+              <!-- inner -->
+              <div class="block h-[42%] w-[57.8%] top-[5%] right-[15%] bottom-[28.19%] left-[20%]">
+                <!-- Share Text -->
+                <h3 class="absolute my-2 top-[3px] left-[20px] leading-[20px] w-[43px] font-button-text-bold">Share</h3>
+                <!-- Location Images -->
+                <div class="relative h-full w-full top-[0%] right-[0%] bottom-[0%] left-[40%] text-bold justify-between">
                   <img
-                    class="absolute h-[97.45%] w-[23.81%] top-[0%] right-[0%] bottom-[2.55%] left-[76.19%] max-w-full overflow-hidden max-h-full"
+                    class="absolute h-full w-[23%] top-[0%] right-[0%] bottom-[0%] left-[80%] overflow-hidden"
                     alt=""
                     src="public/group.svg"
-                  /><b
-                    class="absolute top-[0.44px] left-[0px] leading-[20px] flex items-center w-[43px] h-[17px]"
-                    >Share</b
-                  >
+                  />
                 </div>
               </div>
-            </div>
-            <i
-              class="absolute top-[calc(50%_-_7.5px)] left-[calc(50%_-_152.5px)] leading-[18px] flex font-abeezee text-colors-neutral-gray-4 items-center w-[167px]"
-              >Click to Share Location</i
-            >
+            </button>
           </div>
-          <div
-            class="absolute top-[calc(50%_+_85px)] left-[calc(50%_-_218px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Subject Code</i
-            >
-          </div>
-          <div
-            class="absolute top-[calc(50%_+_12px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Subject</i
-            >
-          </div>
-          <div
-            class="absolute top-[calc(50%_-_61px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Section
-            </i>
-          </div>
-          <div
-            class="absolute top-[calc(50%_-_134px)] left-[calc(50%_-_218px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Course</i
-            >
-          </div>
-          <div
-            class="absolute top-[calc(50%_-_207px)] left-[calc(50%_-_219px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Email</i
-            >
-          </div>
-          <div
-            class="absolute top-[calc(50%_-_280px)] left-[calc(50%_-_218px)] w-[437px] h-[50px] overflow-hidden"
-          >
-            <div
-              class="absolute w-full top-[0px] right-[0px] left-[0px] rounded-small bg-black box-border h-[50px] border-[1px] border-solid border-divider-light-1px-60"
-            ></div>
-            <i
-              class="absolute top-[16px] left-[20px] leading-[18px] flex items-center w-[285px]"
-              >Name</i
-            >
+          <!-- Radius Box -->
+          <div class="relative top-[calc(50%_+_138px)] left-[calc(50%_-_252px)] w-[456px] h-[72px] overflow-hidden">
+            <input type="number" class="absolute top-[16px] bg-gray-700 border border-white rounded-md left-[14px] leading-[18px] w-[404px] h-[44px] text-colors-neutral-gray-4 text-xs px-4 font-arial peer" required>
+            <label for="floating_radius" class="relative text-sm bg-gray-700 text-gray-300 peer-focus:text-white duration-300 transform -translate-y-4 scale-75 top-8 origin-[0] px-2 peer-focus:px-2 peer-focus:text-xs peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-2 peer-placeholder-shown:top-1/2 peer-focus:top-1.5 peer-focus:scale-75 peer-focus:-translate-y-10 left-[22px]">Max radius(in meter)</label>
           </div>
         </div>
-        <b
-          class="absolute top-[calc(50%_-_352.5px)] left-[calc(50%_-_211px)] text-2xl leading-[18px] flex font-arial items-center w-[285px]"
-          >Class Form</b
-        >
       </div>
-      <div
-        class="absolute top-[calc(50%_-_204px)] left-[calc(50%_-_490px)] w-[358px] h-[464px] text-gray-400"
-      >
+      <!-- Left Text Part -->
+      <div class="absolute top-[calc(50%_-_204px)] left-[calc(50%_-_490px)] w-[358px] h-[464px] text-gray-400">
+        <i class="absolute top-[calc(50%_-_232px)] left-[calc(50%_-_179px)] text-xl leading-[25px] flex font-semibold text-neutral-colors-white items-center w-[358px]">
+          Create your class in few clicks
+        </i>
+        <div class="absolute top-[calc(50%_-_181px)] left-[calc(50%_-_179px)] leading-[25px] flex items-center w-[338px]">
+          Share location Feature will help you to monitor attendance of class attendees
+        </div>
         <img
           class="absolute top-[calc(50%_-_74px)] left-[calc(50%_-_153px)] w-[305.15px] h-[306px] object-cover"
-          alt=""
+          alt="Map Image"
           src="public/map-image@2x.png"
         />
-        <div
-          class="absolute top-[calc(50%_-_181px)] left-[calc(50%_-_179px)] leading-[25px] flex items-center w-[338px]"
-        >
-          Share location Feature will help you to monitor attendance of class
-          attendees
-        </div>
-        <i
-          class="absolute top-[calc(50%_-_232px)] left-[calc(50%_-_179px)] text-xl leading-[25px] flex font-semibold text-neutral-colors-white items-center w-[358px]"
-          >Create your class in few clicks</i
-        >
       </div>
-      <div
-        class="absolute top-[3px] left-[0px] w-[1440px] h-[78px] text-sm text-neutral-colors-white"
-      >
-        <div
-          class="absolute top-[77.5px] left-[-0.5px] bg-gray-100 box-border w-[1441px] h-px border-t-[1px] border-solid border-gray-600"
-        ></div>
-        <div
-          class="absolute top-[0px] left-[0px] w-[1440px] h-[78px] overflow-hidden"
-        >
-          <div
-            class="absolute top-[calc(50%_-_11px)] left-[calc(50%_+_298px)] w-[340px] h-[21px]"
-          >
-            <div
-              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_+_104px)] inline-block w-[66px] h-[21px] cursor-pointer"
-              id="loginText"
-            >
-              Login
-            </div>
-            <div
-              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_33px)] inline-block w-[66px] h-[21px]"
-            >
-              About
-            </div>
-            <div
-              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_170px)] inline-block w-[66px] h-[21px]"
-            >
-              Home
-            </div>
-          </div>
-        </div>
-        <img
-          class="absolute top-[16px] left-[108px] w-10 h-[40.82px] overflow-hidden"
-          alt=""
-          src="public/zrx-1.svg"
-        />
-      </div>
-    </div>
-
+    </section>
     <script>
       var enterClass = document.getElementById("enterClass");
       if (enterClass) {
