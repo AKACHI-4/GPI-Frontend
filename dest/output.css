@@ -156,44 +156,64 @@
   left: -0.5px
 }
 
-.top-\[calc\(50\%_-_380px\)\] {
-  top: calc(50% - 380px)
+.top-\[calc\(50\%_-_204px\)\] {
+  top: calc(50% - 204px)
+}
+
+.left-\[calc\(50\%_-_490px\)\] {
+  left: calc(50% - 490px)
+}
+
+.top-\[calc\(50\%_-_232px\)\] {
+  top: calc(50% - 232px)
+}
+
+.left-\[calc\(50\%_-_179px\)\] {
+  left: calc(50% - 179px)
+}
+
+.top-\[calc\(50\%_-_200px\)\] {
+  top: calc(50% - 200px)
+}
+
+.top-\[calc\(50\%_-_95px\)\] {
+  top: calc(50% - 95px)
+}
+
+.left-\[calc\(50\%_-_153px\)\] {
+  left: calc(50% - 153px)
+}
+
+.top-\[calc\(50\%_-_440px\)\] {
+  top: calc(50% - 440px)
 }
 
 .left-\[calc\(50\%_\+_63px\)\] {
   left: calc(50% + 63px)
 }
 
-.top-\[calc\(50\%_-_398\.5px\)\] {
-  top: calc(50% - 398.5px)
-}
-
-.left-\[calc\(50\%_-_257px\)\] {
-  left: calc(50% - 257px)
-}
-
-.top-\[calc\(50\%_-_298\.5px\)\] {
-  top: calc(50% - 298.5px)
+.top-\[calc\(50\%_-_372\.5px\)\] {
+  top: calc(50% - 372.5px)
 }
 
 .left-\[calc\(50\%_-_219px\)\] {
   left: calc(50% - 219px)
 }
 
-.top-\[calc\(50\%_-_330px\)\] {
-  top: calc(50% - 330px)
+.top-\[calc\(50\%_-_370px\)\] {
+  top: calc(50% - 370px)
 }
 
-.left-\[calc\(50\%_-_105px\)\] {
-  left: calc(50% - 105px)
+.left-\[calc\(50\%_-_93px\)\] {
+  left: calc(50% - 93px)
 }
 
-.top-\[calc\(50\%_-_280px\)\] {
-  top: calc(50% - 280px)
+.top-\[calc\(50\%_-_325px\)\] {
+  top: calc(50% - 325px)
 }
 
-.left-\[calc\(50\%_-_252px\)\] {
-  left: calc(50% - 252px)
+.left-\[calc\(50\%_-_233px\)\] {
+  left: calc(50% - 233px)
 }
 
 .top-\[16px\] {
@@ -212,32 +232,32 @@
   left: 22px
 }
 
-.top-\[calc\(50\%_-_208px\)\] {
-  top: calc(50% - 208px)
+.top-\[calc\(50\%_-_250px\)\] {
+  top: calc(50% - 250px)
 }
 
-.top-\[calc\(50\%_-_136px\)\] {
-  top: calc(50% - 136px)
+.top-\[calc\(50\%_-_175px\)\] {
+  top: calc(50% - 175px)
 }
 
-.top-\[calc\(50\%_-_66px\)\] {
-  top: calc(50% - 66px)
+.top-\[calc\(50\%_-_100px\)\] {
+  top: calc(50% - 100px)
 }
 
-.top-\[calc\(50\%_\+_4px\)\] {
-  top: calc(50% + 4px)
+.top-\[calc\(50\%_-_25px\)\] {
+  top: calc(50% - 25px)
 }
 
-.top-\[calc\(50\%_\+_74px\)\] {
-  top: calc(50% + 74px)
+.top-\[calc\(50\%_\+_50px\)\] {
+  top: calc(50% + 50px)
 }
 
-.top-\[calc\(50\%_\+_160px\)\] {
-  top: calc(50% + 160px)
+.top-\[calc\(50\%_\+_142px\)\] {
+  top: calc(50% + 142px)
 }
 
-.left-\[calc\(50\%_-_163px\)\] {
-  left: calc(50% - 163px)
+.left-\[calc\(50\%_-_145px\)\] {
+  left: calc(50% - 145px)
 }
 
 .top-\[calc\(50\%_-_22px\)\] {
@@ -300,12 +320,24 @@
   left: 80%
 }
 
-.top-\[calc\(50\%_\+_138px\)\] {
-  top: calc(50% + 138px)
+.top-\[calc\(50\%_\+_125px\)\] {
+  top: calc(50% + 125px)
 }
 
-.top-\[calc\(50\%_\+_317\.5px\)\] {
-  top: calc(50% + 317.5px)
+.top-\[calc\(50\%_\+_310px\)\] {
+  top: calc(50% + 310px)
+}
+
+.left-\[calc\(50\%_-_220px\)\] {
+  left: calc(50% - 220px)
+}
+
+.top-\[calc\(50\%_-_20px\)\] {
+  top: calc(50% - 20px)
+}
+
+.left-\[calc\(50\%_-_120px\)\] {
+  left: calc(50% - 120px)
 }
 
 .top-\[26\.69\%\] {
@@ -320,8 +352,8 @@
   bottom: 26.69%
 }
 
-.left-\[10\.25\%\] {
-  left: 10.25%
+.left-\[7\.25\%\] {
+  left: 7.25%
 }
 
 .top-\[0\.7\%\] {
@@ -332,52 +364,36 @@
   right: 89.42%
 }
 
-.left-\[0\%\] {
-  left: 0%
+.left-\[5\%\] {
+  left: 5%
 }
 
-.left-\[37\.5px\] {
-  left: 37.5px
+.top-\[2\.5px\] {
+  top: 2.5px
+}
+
+.left-\[47\.5px\] {
+  left: 47.5px
 }
 
 .left-\[278px\] {
   left: 278px
 }
 
-.top-\[calc\(50\%_-_10px\)\] {
-  top: calc(50% - 10px)
+.top-\[calc\(50\%_-_27px\)\] {
+  top: calc(50% - 27px)
 }
 
-.left-\[calc\(50\%_-_50\.5px\)\] {
-  left: calc(50% - 50.5px)
+.left-\[calc\(50\%_-_39\.5px\)\] {
+  left: calc(50% - 39.5px)
 }
 
-.top-\[calc\(50\%_-_204px\)\] {
-  top: calc(50% - 204px)
+.top-\[calc\(50\%_-_7px\)\] {
+  top: calc(50% - 7px)
 }
 
-.left-\[calc\(50\%_-_490px\)\] {
-  left: calc(50% - 490px)
-}
-
-.top-\[calc\(50\%_-_232px\)\] {
-  top: calc(50% - 232px)
-}
-
-.left-\[calc\(50\%_-_179px\)\] {
-  left: calc(50% - 179px)
-}
-
-.top-\[calc\(50\%_-_181px\)\] {
-  top: calc(50% - 181px)
-}
-
-.top-\[calc\(50\%_-_74px\)\] {
-  top: calc(50% - 74px)
-}
-
-.left-\[calc\(50\%_-_153px\)\] {
-  left: calc(50% - 153px)
+.left-\[calc\(50\%_-_55\.5px\)\] {
+  left: calc(50% - 55.5px)
 }
 
 .top-\[222px\] {
@@ -656,12 +672,24 @@
   left: calc(50% - 335.5px)
 }
 
-.top-\[592px\] {
-  top: 592px
+.top-\[35px\] {
+  top: 35px
 }
 
-.left-\[246px\] {
-  left: 246px
+.left-\[55px\] {
+  left: 55px
+}
+
+.left-\[160px\] {
+  left: 160px
+}
+
+.top-\[74px\] {
+  top: 74px
+}
+
+.left-\[28px\] {
+  left: 28px
 }
 
 .top-\[205px\] {
@@ -672,16 +700,60 @@
   left: 49px
 }
 
+.bottom-\[83\.44\%\] {
+  bottom: 83.44%
+}
+
+.left-\[0\.35\%\] {
+  left: 0.35%
+}
+
+.right-\[0\.48px\] {
+  right: 0.48px
+}
+
+.top-\[27\.81\%\] {
+  top: 27.81%
+}
+
+.right-\[0\.17\%\] {
+  right: 0.17%
+}
+
+.bottom-\[55\.63\%\] {
+  bottom: 55.63%
+}
+
+.left-\[0\.17\%\] {
+  left: 0.17%
+}
+
+.top-\[55\.63\%\] {
+  top: 55.63%
+}
+
+.right-\[0\.35\%\] {
+  right: 0.35%
+}
+
+.bottom-\[27\.81\%\] {
+  bottom: 27.81%
+}
+
+.left-\[0\%\] {
+  left: 0%
+}
+
+.left-\[6px\] {
+  left: 6px
+}
+
 .top-\[252px\] {
   top: 252px
 }
 
 .left-\[1px\] {
   left: 1px
-}
-
-.left-\[514\.19px\] {
-  left: 514.19px
 }
 
 .top-\[26\%\] {
@@ -708,644 +780,48 @@
   right: 0.18px
 }
 
-.top-\[55\.63\%\] {
-  top: 55.63%
+.top-\[592px\] {
+  top: 592px
 }
 
-.right-\[0\.35\%\] {
-  right: 0.35%
-}
-
-.bottom-\[27\.81\%\] {
-  bottom: 27.81%
-}
-
-.right-\[0\.48px\] {
-  right: 0.48px
-}
-
-.top-\[27\.81\%\] {
-  top: 27.81%
-}
-
-.right-\[0\.17\%\] {
-  right: 0.17%
-}
-
-.bottom-\[55\.63\%\] {
-  bottom: 55.63%
-}
-
-.left-\[0\.17\%\] {
-  left: 0.17%
-}
-
-.bottom-\[83\.44\%\] {
-  bottom: 83.44%
-}
-
-.left-\[0\.35\%\] {
-  left: 0.35%
-}
-
-.top-\[45px\] {
-  top: 45px
-}
-
-.left-\[144px\] {
-  left: 144px
-}
-
-.top-\[37px\] {
-  top: 37px
-}
-
-.top-\[74px\] {
-  top: 74px
-}
-
-.left-\[-2px\] {
-  left: -2px
-}
-
-.left-\[calc\(50\%_-_223px\)\] {
-  left: calc(50% - 223px)
-}
-
-.left-\[calc\(50\%_-_228px\)\] {
-  left: calc(50% - 228px)
-}
-
-.left-\[calc\(50\%_-_230px\)\] {
-  left: calc(50% - 230px)
-}
-
-.left-\[calc\(50\%_-_233px\)\] {
-  left: calc(50% - 233px)
-}
-
-.left-\[calc\(50\%_-_235px\)\] {
-  left: calc(50% - 235px)
-}
-
-.left-\[calc\(50\%_-_236px\)\] {
-  left: calc(50% - 236px)
-}
-
-.left-\[7\.25\%\] {
-  left: 7.25%
-}
-
-.top-\[5px\] {
-  top: 5px
-}
-
-.top-\[1px\] {
-  top: 1px
-}
-
-.top-\[1\.5px\] {
-  top: 1.5px
-}
-
-.top-\[calc\(50\%_-_1px\)\] {
-  top: calc(50% - 1px)
-}
-
-.top-\[calc\(50\%_-_50px\)\] {
-  top: calc(50% - 50px)
-}
-
-.top-\[calc\(50\%_-_30px\)\] {
-  top: calc(50% - 30px)
-}
-
-.top-\[calc\(50\%_-_25px\)\] {
-  top: calc(50% - 25px)
-}
-
-.top-\[calc\(50\%_-_27px\)\] {
-  top: calc(50% - 27px)
-}
-
-.left-\[calc\(50\%_-_36px\)\] {
-  left: calc(50% - 36px)
-}
-
-.top-\[calc\(50\%_\+_31\.5px\)\] {
-  top: calc(50% + 31.5px)
-}
-
-.top-\[calc\(50\%_-_1\.5px\)\] {
-  top: calc(50% - 1.5px)
-}
-
-.left-\[calc\(50\%_-_136px\)\] {
-  left: calc(50% - 136px)
-}
-
-.left-\[calc\(50\%_-_120px\)\] {
-  left: calc(50% - 120px)
-}
-
-.top-\[calc\(50\%_-_115\.5px\)\] {
-  top: calc(50% - 115.5px)
-}
-
-.top-\[calc\(50\%_-_100\.5px\)\] {
-  top: calc(50% - 100.5px)
-}
-
-.top-\[calc\(50\%_-_35\.5px\)\] {
-  top: calc(50% - 35.5px)
-}
-
-.top-\[calc\(50\%_-_25\.5px\)\] {
-  top: calc(50% - 25.5px)
-}
-
-.top-\[calc\(50\%_-_17\.5px\)\] {
-  top: calc(50% - 17.5px)
-}
-
-.top-\[calc\(50\%_-_22\.5px\)\] {
-  top: calc(50% - 22.5px)
-}
-
-.top-\[calc\(50\%_-_21\.5px\)\] {
-  top: calc(50% - 21.5px)
-}
-
-.top-\[calc\(50\%_-_20\.8px\)\] {
-  top: calc(50% - 20.8px)
-}
-
-.top-\[calc\(50\%_-_20\.7px\)\] {
-  top: calc(50% - 20.7px)
-}
-
-.top-\[calc\(50\%_-_21px\)\] {
-  top: calc(50% - 21px)
-}
-
-.top-\[calc\(50\%_-_21\.2px\)\] {
-  top: calc(50% - 21.2px)
-}
-
-.top-\[calc\(50\%_-_21\.1px\)\] {
-  top: calc(50% - 21.1px)
-}
-
-.top-\[calc\(50\%_-_20px\)\] {
-  top: calc(50% - 20px)
-}
-
-.top-\[calc\(50\%_-_5px\)\] {
-  top: calc(50% - 5px)
-}
-
-.top-\[calc\(50\%_-_8px\)\] {
-  top: calc(50% - 8px)
-}
-
-.top-\[calc\(50\%_-_7px\)\] {
-  top: calc(50% - 7px)
-}
-
-.left-\[calc\(50\%_-_53\.5px\)\] {
-  left: calc(50% - 53.5px)
-}
-
-.left-\[calc\(50\%_-_58\.5px\)\] {
-  left: calc(50% - 58.5px)
-}
-
-.left-\[calc\(50\%_-_70\.5px\)\] {
-  left: calc(50% - 70.5px)
-}
-
-.left-\[calc\(50\%_-_26\.5px\)\] {
-  left: calc(50% - 26.5px)
-}
-
-.left-\[calc\(50\%_-_15\.5px\)\] {
-  left: calc(50% - 15.5px)
-}
-
-.left-\[calc\(50\%_-_5\.5px\)\] {
-  left: calc(50% - 5.5px)
-}
-
-.left-\[calc\(50\%_-_10\.5px\)\] {
-  left: calc(50% - 10.5px)
-}
-
-.left-\[calc\(50\%_-_80\.5px\)\] {
-  left: calc(50% - 80.5px)
-}
-
-.left-\[calc\(50\%_-_30\.5px\)\] {
-  left: calc(50% - 30.5px)
-}
-
-.left-\[calc\(50\%_-_40\.5px\)\] {
-  left: calc(50% - 40.5px)
-}
-
-.left-\[calc\(50\%_-_20\.5px\)\] {
-  left: calc(50% - 20.5px)
-}
-
-.left-\[calc\(50\%_-_38\.5px\)\] {
-  left: calc(50% - 38.5px)
-}
-
-.left-\[calc\(50\%_-_39\.5px\)\] {
-  left: calc(50% - 39.5px)
-}
-
-.left-\[calc\(50\%_-_55\.5px\)\] {
-  left: calc(50% - 55.5px)
-}
-
-.right-\[85\.42\%\] {
-  right: 85.42%
-}
-
-.right-\[80\.42\%\] {
-  right: 80.42%
-}
-
-.right-\[50\.42\%\] {
-  right: 50.42%
-}
-
-.left-\[5\%\] {
-  left: 5%
-}
-
-.left-\[57\.5px\] {
-  left: 57.5px
-}
-
-.left-\[52\.5px\] {
-  left: 52.5px
-}
-
-.left-\[47\.5px\] {
-  left: 47.5px
-}
-
-.top-\[2\.5px\] {
-  top: 2.5px
-}
-
-.left-\[calc\(50\%_-_240px\)\] {
-  left: calc(50% - 240px)
-}
-
-.top-\[calc\(50\%_\+_325\.5px\)\] {
-  top: calc(50% + 325.5px)
-}
-
-.top-\[calc\(50\%_\+_330\.5px\)\] {
-  top: calc(50% + 330.5px)
-}
-
-.top-\[calc\(50\%_\+_350\.5px\)\] {
-  top: calc(50% + 350.5px)
-}
-
-.top-\[calc\(50\%_\+_300\.5px\)\] {
-  top: calc(50% + 300.5px)
-}
-
-.top-\[calc\(50\%_\+_310\.5px\)\] {
-  top: calc(50% + 310.5px)
-}
-
-.top-\[calc\(50\%_-_420px\)\] {
-  top: calc(50% - 420px)
-}
-
-.top-\[calc\(50\%_-_400px\)\] {
-  top: calc(50% - 400px)
-}
-
-.top-\[calc\(50\%_\+_360\.5px\)\] {
-  top: calc(50% + 360.5px)
-}
-
-.top-\[calc\(50\%_\+_340\.5px\)\] {
-  top: calc(50% + 340.5px)
-}
-
-.top-\[calc\(50\%_\+_335\.5px\)\] {
-  top: calc(50% + 335.5px)
-}
-
-.top-\[calc\(50\%_-_370px\)\] {
-  top: calc(50% - 370px)
-}
-
-.top-\[calc\(50\%_-_375px\)\] {
-  top: calc(50% - 375px)
-}
-
-.top-\[calc\(50\%_\+_345\.5px\)\] {
-  top: calc(50% + 345.5px)
-}
-
-.top-\[calc\(50\%_\+_320\.5px\)\] {
-  top: calc(50% + 320.5px)
-}
-
-.top-\[calc\(50\%_\+_315\.5px\)\] {
-  top: calc(50% + 315.5px)
-}
-
-.top-\[calc\(50\%_-_368\.5px\)\] {
-  top: calc(50% - 368.5px)
-}
-
-.top-\[calc\(50\%_-_372\.5px\)\] {
-  top: calc(50% - 372.5px)
-}
-
-.left-\[calc\(50\%_-_75px\)\] {
-  left: calc(50% - 75px)
-}
-
-.left-\[calc\(50\%_-_85px\)\] {
-  left: calc(50% - 85px)
-}
-
-.left-\[calc\(50\%_-_152px\)\] {
-  left: calc(50% - 152px)
-}
-
-.left-\[calc\(50\%_-_182px\)\] {
-  left: calc(50% - 182px)
-}
-
-.left-\[calc\(50\%_-_212px\)\] {
-  left: calc(50% - 212px)
-}
-
-.left-\[calc\(50\%_-_232px\)\] {
-  left: calc(50% - 232px)
-}
-
-.left-\[calc\(50\%_-_110px\)\] {
-  left: calc(50% - 110px)
-}
-
-.left-\[calc\(50\%_-_112px\)\] {
-  left: calc(50% - 112px)
-}
-
-.top-\[calc\(50\%_-_350px\)\] {
-  top: calc(50% - 350px)
-}
-
-.top-\[calc\(50\%_-_320px\)\] {
-  top: calc(50% - 320px)
-}
-
-.left-\[calc\(50\%_-_95px\)\] {
-  left: calc(50% - 95px)
-}
-
-.left-\[calc\(50\%_-_90px\)\] {
-  left: calc(50% - 90px)
-}
-
-.left-\[calc\(50\%_-_93px\)\] {
-  left: calc(50% - 93px)
-}
-
-.top-\[calc\(50\%_-_290px\)\] {
-  top: calc(50% - 290px)
-}
-
-.top-\[calc\(50\%_-_300px\)\] {
-  top: calc(50% - 300px)
-}
-
-.top-\[calc\(50\%_-_235px\)\] {
-  top: calc(50% - 235px)
-}
-
-.top-\[calc\(50\%_-_220px\)\] {
-  top: calc(50% - 220px)
-}
-
-.top-\[calc\(50\%_-_225px\)\] {
-  top: calc(50% - 225px)
-}
-
-.top-\[calc\(50\%_-_230px\)\] {
-  top: calc(50% - 230px)
-}
-
-.top-\[calc\(50\%_-_228px\)\] {
-  top: calc(50% - 228px)
-}
-
-.top-\[calc\(50\%_-_156px\)\] {
-  top: calc(50% - 156px)
-}
-
-.top-\[calc\(50\%_-_150px\)\] {
-  top: calc(50% - 150px)
-}
-
-.top-\[calc\(50\%_-_75px\)\] {
-  top: calc(50% - 75px)
-}
-
-.top-\[calc\(50\%\)\] {
-  top: calc(50%)
-}
-
-.left-\[calc\(50\%_-_160px\)\] {
-  left: calc(50% - 160px)
-}
-
-.left-\[calc\(50\%_-_155px\)\] {
-  left: calc(50% - 155px)
-}
-
-.top-\[calc\(50\%_\+_75px\)\] {
-  top: calc(50% + 75px)
-}
-
-.top-\[calc\(50\%_\+_150px\)\] {
-  top: calc(50% + 150px)
-}
-
-.top-\[calc\(50\%_\+_175px\)\] {
-  top: calc(50% + 175px)
-}
-
-.top-\[calc\(50\%_\+_165px\)\] {
-  top: calc(50% + 165px)
-}
-
-.top-\[calc\(50\%_\+_163px\)\] {
-  top: calc(50% + 163px)
-}
-
-.left-\[calc\(50\%_-_140px\)\] {
-  left: calc(50% - 140px)
-}
-
-.left-\[calc\(50\%_-_145px\)\] {
-  left: calc(50% - 145px)
-}
-
-.top-\[calc\(50\%_\+_143px\)\] {
-  top: calc(50% + 143px)
-}
-
-.top-\[calc\(50\%_\+_142px\)\] {
-  top: calc(50% + 142px)
-}
-
-.top-\[calc\(50\%_\+_355\.5px\)\] {
-  top: calc(50% + 355.5px)
-}
-
-.left-\[calc\(50\%_-_220px\)\] {
-  left: calc(50% - 220px)
-}
-
-.top-\[calc\(50\%_-_430px\)\] {
-  top: calc(50% - 430px)
-}
-
-.top-\[calc\(50\%_-_440px\)\] {
-  top: calc(50% - 440px)
-}
-
-.top-\[calc\(50\%_\+_320px\)\] {
-  top: calc(50% + 320px)
-}
-
-.top-\[calc\(50\%_\+_315px\)\] {
-  top: calc(50% + 315px)
-}
-
-.top-\[calc\(50\%_-_360px\)\] {
-  top: calc(50% - 360px)
-}
-
-.top-\[calc\(50\%_-_340px\)\] {
-  top: calc(50% - 340px)
-}
-
-.top-\[calc\(50\%_-_325px\)\] {
-  top: calc(50% - 325px)
-}
-
-.top-\[calc\(50\%_-_240px\)\] {
-  top: calc(50% - 240px)
-}
-
-.top-\[calc\(50\%_-_245px\)\] {
-  top: calc(50% - 245px)
-}
-
-.top-\[calc\(50\%_-_250px\)\] {
-  top: calc(50% - 250px)
-}
-
-.top-\[calc\(50\%_-_175px\)\] {
-  top: calc(50% - 175px)
-}
-
-.top-\[calc\(50\%_-_100px\)\] {
-  top: calc(50% - 100px)
-}
-
-.top-\[calc\(50\%\)_-_25px\] {
-  top: calc(50%) - 25px
-}
-
-.top-\[calc\(50\%_\+_50px\)\] {
-  top: calc(50% + 50px)
-}
-
-.top-\[calc\(50\%_-25px\)\] {
-  top: calc(50% -25px)
-}
-
-.top-\[calc\(50\%_\+_130px\)\] {
-  top: calc(50% + 130px)
-}
-
-.top-\[calc\(50\%_\+_145px\)\] {
-  top: calc(50% + 145px)
-}
-
-.top-\[calc\(50\%_\+_162px\)\] {
-  top: calc(50% + 162px)
-}
-
-.top-\[calc\(50\%_\+_125px\)\] {
-  top: calc(50% + 125px)
-}
-
-.top-\[calc\(50\%_\+_140px\)\] {
-  top: calc(50% + 140px)
-}
-
-.top-\[calc\(50\%_\+_300px\)\] {
-  top: calc(50% + 300px)
-}
-
-.top-\[calc\(50\%_\+_305px\)\] {
-  top: calc(50% + 305px)
-}
-
-.top-\[calc\(50\%_\+_310px\)\] {
-  top: calc(50% + 310px)
-}
-
-.top-\[calc\(50\%_-_200px\)\] {
-  top: calc(50% - 200px)
-}
-
-.top-\[calc\(50\%_-_222px\)\] {
-  top: calc(50% - 222px)
-}
-
-.top-\[calc\(50\%_-_210px\)\] {
-  top: calc(50% - 210px)
-}
-
-.top-\[calc\(50\%_-_110px\)\] {
-  top: calc(50% - 110px)
-}
-
-.top-\[calc\(50\%_-_95px\)\] {
-  top: calc(50% - 95px)
+.left-\[246px\] {
+  left: 246px
 }
 
 .top-2 {
   top: 0.5rem
 }
 
-.left-1 {
-  left: 0.25rem
-}
-
 .top-4 {
   top: 1rem
 }
 
-.z-10 {
-  z-index: 10
+.top-6 {
+  top: 1.5rem
+}
+
+.left-\[18px\] {
+  left: 18px
+}
+
+.top-\[20px\] {
+  top: 20px
+}
+
+.top-\[50px\] {
+  top: 50px
+}
+
+.top-\[30px\] {
+  top: 30px
+}
+
+.top-\[15px\] {
+  top: 15px
+}
+
+.top-\[18px\] {
+  top: 18px
 }
 
 .m-0 {
@@ -1360,11 +836,6 @@
 .mx-60 {
   margin-left: 15rem;
   margin-right: 15rem
-}
-
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem
 }
 
 .box-border {
@@ -1407,12 +878,16 @@
   height: 1px
 }
 
-.h-\[797px\] {
-  height: 797px
+.h-\[464px\] {
+  height: 464px
 }
 
-.h-\[560px\] {
-  height: 560px
+.h-\[306px\] {
+  height: 306px
+}
+
+.h-\[850px\] {
+  height: 850px
 }
 
 .h-\[72px\] {
@@ -1439,8 +914,8 @@
   height: 100%
 }
 
-.h-\[49px\] {
-  height: 49px
+.h-\[48px\] {
+  height: 48px
 }
 
 .h-\[46\.61\%\] {
@@ -1453,14 +928,6 @@
 
 .h-5 {
   height: 1.25rem
-}
-
-.h-\[464px\] {
-  height: 464px
-}
-
-.h-\[306px\] {
-  height: 306px
 }
 
 .h-\[612px\] {
@@ -1567,12 +1034,16 @@
   height: 712px
 }
 
-.h-14 {
-  height: 3.5rem
+.h-\[92px\] {
+  height: 92px
 }
 
 .h-\[302px\] {
   height: 302px
+}
+
+.h-\[16\.56\%\] {
+  height: 16.56%
 }
 
 .h-\[50px\] {
@@ -1583,80 +1054,16 @@
   height: 48%
 }
 
-.h-\[16\.56\%\] {
-  height: 16.56%
+.h-14 {
+  height: 3.5rem
 }
 
-.h-\[92px\] {
-  height: 92px
+.h-\[26\.56\%\] {
+  height: 26.56%
 }
 
-.h-\[48px\] {
-  height: 48px
-}
-
-.h-\[45px\] {
-  height: 45px
-}
-
-.h-\[47px\] {
-  height: 47px
-}
-
-.h-\[810px\] {
-  height: 810px
-}
-
-.h-\[850px\] {
-  height: 850px
-}
-
-.h-\[840px\] {
-  height: 840px
-}
-
-.h-\[800px\] {
-  height: 800px
-}
-
-.h-\[786px\] {
-  height: 786px
-}
-
-.h-\[776px\] {
-  height: 776px
-}
-
-.h-\[545px\] {
-  height: 545px
-}
-
-.h-\[745px\] {
-  height: 745px
-}
-
-.h-\[760px\] {
-  height: 760px
-}
-
-.h-\[785px\] {
-  height: 785px
-}
-
-.h-\[788px\] {
-  height: 788px
-}
-
-.h-\[790px\] {
-  height: 790px
-}
-
-.h-\[820px\] {
-  height: 820px
-}
-
-.h-\[815px\] {
-  height: 815px
+.h-\[46\.56\%\] {
+  height: 46.56%
 }
 
 .max-h-full {
@@ -1683,12 +1090,20 @@
   width: 66px
 }
 
-.w-\[514px\] {
-  width: 514px
+.w-\[358px\] {
+  width: 358px
 }
 
-.w-\[480px\] {
-  width: 480px
+.w-\[338px\] {
+  width: 338px
+}
+
+.w-\[305\.15px\] {
+  width: 305.15px
+}
+
+.w-\[514px\] {
+  width: 514px
 }
 
 .w-\[285px\] {
@@ -1745,18 +1160,6 @@
 
 .w-\[101px\] {
   width: 101px
-}
-
-.w-\[358px\] {
-  width: 358px
-}
-
-.w-\[338px\] {
-  width: 338px
-}
-
-.w-\[305\.15px\] {
-  width: 305.15px
 }
 
 .w-\[417px\] {
@@ -1895,24 +1298,36 @@
   width: 671px
 }
 
-.w-\[180px\] {
-  width: 180px
+.w-\[482px\] {
+  width: 482px
 }
 
-.w-\[70px\] {
-  width: 70px
+.w-\[213px\] {
+  width: 213px
+}
+
+.w-\[550px\] {
+  width: 550px
 }
 
 .w-\[572\.48px\] {
   width: 572.48px
 }
 
-.w-\[569px\] {
-  width: 569px
+.w-\[99\.65\%\] {
+  width: 99.65%
 }
 
-.w-\[54\.81px\] {
-  width: 54.81px
+.w-\[calc\(100\%_-_0\.48px\)\] {
+  width: calc(100% - 0.48px)
+}
+
+.w-\[535px\] {
+  width: 535px
+}
+
+.w-\[569px\] {
+  width: 569px
 }
 
 .w-\[3\.42\%\] {
@@ -1927,28 +1342,40 @@
   width: calc(100% - 0.18px)
 }
 
-.w-\[99\.65\%\] {
-  width: 99.65%
+.w-\[170px\] {
+  width: 170px
 }
 
-.w-\[calc\(100\%_-_0\.48px\)\] {
-  width: calc(100% - 0.48px)
+.w-\[70px\] {
+  width: 70px
 }
 
-.w-\[482px\] {
-  width: 482px
+.w-\[525px\] {
+  width: 525px
 }
 
-.w-\[193px\] {
-  width: 193px
+.w-\[527px\] {
+  width: 527px
 }
 
-.w-\[150px\] {
-  width: 150px
+.w-\[528px\] {
+  width: 528px
 }
 
-.w-\[510px\] {
-  width: 510px
+.w-\[530px\] {
+  width: 530px
+}
+
+.w-\[545px\] {
+  width: 545px
+}
+
+.w-\[555px\] {
+  width: 555px
+}
+
+.w-\[558px\] {
+  width: 558px
 }
 
 .max-w-full {
@@ -1968,8 +1395,8 @@
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
-.-translate-y-2 {
-  --tw-translate-y: -0.5rem;
+.-translate-y-0 {
+  --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
@@ -1979,18 +1406,18 @@
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
+.scale-100 {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
 .cursor-pointer {
   cursor: pointer
-}
-
-.appearance-none {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none
 }
 
 .flex-col {
@@ -2029,10 +1456,6 @@
   border-radius: 5px
 }
 
-.rounded-lg {
-  border-radius: 0.5rem
-}
-
 .rounded-t-base {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px
@@ -2067,32 +1490,20 @@
   border-bottom-left-radius: 5px
 }
 
-.border-\[2px\] {
-  border-width: 2px
+.border-\[3px\] {
+  border-width: 3px
 }
 
 .border {
   border-width: 1px
 }
 
-.border-\[1px\] {
-  border-width: 1px
-}
-
-.border-0 {
-  border-width: 0px
-}
-
-.border-2 {
+.border-\[2px\] {
   border-width: 2px
 }
 
-.border-\[100px\] {
-  border-width: 100px
-}
-
-.border-\[3px\] {
-  border-width: 3px
+.border-\[1px\] {
+  border-width: 1px
 }
 
 .border-t-\[1px\] {
@@ -2131,16 +1542,6 @@
   border-color: rgba(228, 228, 228, 0.6)
 }
 
-.border-gray-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(13 17 22 / var(--tw-border-opacity))
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(137 150 172 / var(--tw-border-opacity))
-}
-
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(13 17 23 / var(--tw-bg-opacity))
@@ -2156,9 +1557,8 @@
   background-color: rgb(13 17 22 / var(--tw-bg-opacity))
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+.bg-transparent {
+  background-color: transparent
 }
 
 .bg-indigo-100 {
@@ -2196,15 +1596,6 @@
   background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }
 
-.bg-transparent {
-  background-color: transparent
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover
@@ -2230,29 +1621,12 @@
   padding-right: 52px
 }
 
-.px-2\.5 {
-  padding-left: 0.625rem;
-  padding-right: 0.625rem
-}
-
 .pr-\[51px\] {
   padding-right: 51px
 }
 
 .pl-\[52px\] {
   padding-left: 52px
-}
-
-.pb-2\.5 {
-  padding-bottom: 0.625rem
-}
-
-.pt-4 {
-  padding-top: 1rem
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem
 }
 
 .text-left {
@@ -2283,16 +1657,16 @@
   font-size: 16px
 }
 
+.text-xl {
+  font-size: 22px
+}
+
 .text-xs {
   font-size: 15px
 }
 
 .text-2xl {
   font-size: 30px
-}
-
-.text-xl {
-  font-size: 22px
 }
 
 .text-lg {
@@ -2307,16 +1681,16 @@
   font-weight: 600
 }
 
+.leading-\[25px\] {
+  line-height: 25px
+}
+
 .leading-\[18px\] {
   line-height: 18px
 }
 
 .leading-\[20px\] {
   line-height: 20px
-}
-
-.leading-\[25px\] {
-  line-height: 25px
 }
 
 .tracking-\[0\.01em\] {
@@ -2328,9 +1702,9 @@
   color: rgb(228 228 228 / var(--tw-text-opacity))
 }
 
-.text-gray-300 {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(137 150 172 / var(--tw-text-opacity))
+  color: rgb(111 125 149 / var(--tw-text-opacity))
 }
 
 .text-neutral-colors-white {
@@ -2338,41 +1712,22 @@
   color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(137 150 172 / var(--tw-text-opacity))
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(111 125 149 / var(--tw-text-opacity))
-}
-
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity))
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(73 74 80 / var(--tw-text-opacity))
 }
 
 .opacity-\[0\.6\] {
   opacity: 0.6
 }
 
-.outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px
-}
-
 .duration-300 {
   transition-duration: 300ms
-}
-
-.duration-200 {
-  transition-duration: 200ms
 }
 
 .\[background\:linear-gradient\(125\.06deg\2c _\#0400ff\2c _\#ff3d00\)\] {
@@ -2394,30 +1749,6 @@
 body {
   margin: 0px;
   line-height: normal
-}
-
-.hover\:transform:hover {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-.hover\:border-blue-100:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(219 234 254 / var(--tw-border-opacity))
-}
-
-.hover\:bg-blue-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity))
-}
-
-.hover\:bg-indigo-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(165 180 252 / var(--tw-bg-opacity))
-}
-
-.hover\:bg-indigo-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(238 242 255 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-indigo-200:hover {
@@ -2459,13 +1790,13 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
-.peer:-moz-placeholder-shown ~ .peer-placeholder-shown\:-translate-y-1\/2 {
-  --tw-translate-y: -50%;
+.peer:-moz-placeholder-shown ~ .peer-placeholder-shown\:-translate-y-0 {
+  --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
-.peer:placeholder-shown ~ .peer-placeholder-shown\:-translate-y-1\/2 {
-  --tw-translate-y: -50%;
+.peer:placeholder-shown ~ .peer-placeholder-shown\:-translate-y-0 {
+  --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
@@ -2481,32 +1812,9 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
-.peer:hover ~ .peer-hover\:top-1\.5 {
-  top: 0.375rem
-}
-
-.peer:hover ~ .peer-hover\:top-1 {
-  top: 0.25rem
-}
-
-.peer:hover ~ .peer-hover\:scale-75 {
-  --tw-scale-x: .75;
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-.peer:hover ~ .peer-hover\:border-blue-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(219 234 254 / var(--tw-border-opacity))
-}
-
 .peer:hover ~ .peer-hover\:px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem
-}
-
-.peer:hover ~ .peer-hover\:text-xs {
-  font-size: 15px
 }
 
 .peer:focus ~ .peer-focus\:top-1\.5 {
@@ -2517,8 +1825,28 @@ body {
   top: 0.25rem
 }
 
-.peer:focus ~ .peer-focus\:top-2 {
-  top: 0.5rem
+.peer:focus ~ .peer-focus\:top-5 {
+  top: 1.25rem
+}
+
+.peer:focus ~ .peer-focus\:top-6 {
+  top: 1.5rem
+}
+
+.peer:focus ~ .peer-focus\:top-0\.5 {
+  top: 0.125rem
+}
+
+.peer:focus ~ .peer-focus\:top-0 {
+  top: 0px
+}
+
+.peer:focus ~ .peer-focus\:-top-0\.5 {
+  top: -0.125rem
+}
+
+.peer:focus ~ .peer-focus\:-top-0 {
+  top: -0px
 }
 
 .peer:focus ~ .peer-focus\:-translate-y-10 {
@@ -2526,25 +1854,10 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
-.peer:focus ~ .peer-focus\:-translate-y-4 {
-  --tw-translate-y: -1rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
 .peer:focus ~ .peer-focus\:scale-75 {
   --tw-scale-x: .75;
   --tw-scale-y: .75;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-.peer:focus ~ .peer-focus\:border-indigo-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(28 104 228 / var(--tw-border-opacity))
-}
-
-.peer:focus ~ .peer-focus\:border-blue-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(219 234 254 / var(--tw-border-opacity))
 }
 
 .peer:focus ~ .peer-focus\:px-2 {
@@ -2559,46 +1872,4 @@ body {
 .peer:focus ~ .peer-focus\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-
-.peer:focus ~ .peer-focus\:text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity))
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:border-gray-600 {
-    --tw-border-opacity: 1;
-    border-color: rgb(50 59 74 / var(--tw-border-opacity))
-  }
-
-  .dark\:bg-gray-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity))
-  }
-
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity))
-  }
-
-  .dark\:text-gray-500 {
-    --tw-text-opacity: 1;
-    color: rgb(73 74 80 / var(--tw-text-opacity))
-  }
-
-  .dark\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(111 125 149 / var(--tw-text-opacity))
-  }
-
-  .dark\:focus\:border-blue-500:focus {
-    --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
-  }
-
-  .peer:focus ~ .peer-focus\:dark\:text-blue-500 {
-    --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
-  }
 }
