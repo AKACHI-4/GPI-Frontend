@@ -3,25 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <!-- style -->
     <link rel="stylesheet" href="./dest/output.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,600&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,600&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@1,400&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"/>
+    <!-- script -->
+    <script src="./script/room.js"></script>
   </head>
   <body>
-    <div
-      class="relative bg-gray-700 w-full h-[1024px] overflow-hidden text-left text-xl text-neutral-colors-white font-button-text-bold"
-    >
+    <section class="relative bg-gray-700 w-full h-[1024px] overflow-hidden text-left text-xl text-neutral-colors-white font-button-text-bold">
+      <!-- navbar -->
+      <nav class="absolute top-[calc(50%_-_510px)] left-[calc(50%_-_720px)] w-[1440px] h-[70px] text-left text-sm">
+        <img class="absolute top-[calc(50%_-_23px)] left-[calc(50%_-_612px)] w-10 h-[35px] overflow-hidden" alt="Logo" src="public/zrx-1.svg"/>
+        <div class="absolute top-[0px] left-[0px] w-[1440px] h-[70px] overflow-hidden">
+          <div class="absolute top-[calc(50%_-_13px)] left-[calc(50%_+_298px)] w-[340px] h-[20px]">
+            <div class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_170px)] inline-block w-[66px] h-[21px]">
+              Home
+            </div>
+            <div class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_33px)] inline-block w-[66px] h-[21px]">
+              About
+            </div>
+            <div class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_+_104px)] inline-block w-[66px] h-[21px] cursor-pointer" id="loginText">
+              Login
+            </div>
+          </div>
+        </div>
+        <div class="absolute top-[63px] left-[-0.5px] bg-gray-500 w-[1440px] h-px"></div>
+      </nav>
+      <!-- Attendees -->
       <div class="absolute top-[222px] left-[56px] w-[417px] h-[612px]">
         <div
           class="absolute top-[0px] left-[0px] rounded-base bg-gray-700 box-border w-[417px] h-[612px] border-[2px] border-solid border-gray-500"
@@ -66,9 +76,8 @@
           >Class Details</b
         >
       </div>
-      <div
-        class="absolute top-[171px] left-[532px] w-[852px] h-[733px] text-base"
-      >
+      <!-- Class Details -->
+      <div class="absolute top-[171px] left-[532px] w-[852px] h-[733px] text-base">
         <img
           class="absolute top-[0px] left-[0px] w-[852px] h-[733px]"
           alt=""
@@ -207,53 +216,9 @@
           class="absolute top-[0px] left-[0px] rounded-t-base rounded-b-none bg-gray-500 w-[852px] h-[68px]"
         ></div>
         <b
-          class="absolute top-[17px] left-[20px] text-2xl inline-block font-arial text-center w-[247px]"
-          >Attendees List</b
+          class="absolute top-[17px] left-[20px] text-2xl inline-block font-arial text-center w-[247px]">Attendees List</b
         >
       </div>
-      <div class="absolute top-[0px] left-[0px] w-[1440px] h-[78px] text-sm">
-        <div
-          class="absolute top-[77.5px] left-[-0.5px] bg-gray-100 box-border w-[1441px] h-px border-t-[1px] border-solid border-gray-600"
-        ></div>
-        <div
-          class="absolute top-[0px] left-[0px] w-[1440px] h-[78px] overflow-hidden"
-        >
-          <div
-            class="absolute top-[calc(50%_-_11px)] left-[calc(50%_+_298px)] w-[340px] h-[21px]"
-          >
-            <div
-              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_+_104px)] inline-block w-[66px] h-[21px] cursor-pointer"
-              id="loginText"
-            >
-              Login
-            </div>
-            <div
-              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_33px)] inline-block w-[66px] h-[21px]"
-            >
-              About
-            </div>
-            <div
-              class="absolute top-[calc(50%_-_10.5px)] left-[calc(50%_-_170px)] inline-block w-[66px] h-[21px]"
-            >
-              Home
-            </div>
-          </div>
-        </div>
-        <img
-          class="absolute top-[16px] left-[108px] w-10 h-[40.82px] overflow-hidden"
-          alt=""
-          src="public/zrx-11.svg"
-        />
-      </div>
-    </div>
-
-    <script>
-      var loginText = document.getElementById("loginText");
-      if (loginText) {
-        loginText.addEventListener("click", function (e) {
-          window.location.href = "/";
-        });
-      }
-      </script>
+    </section>
   </body>
 </html>
