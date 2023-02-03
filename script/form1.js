@@ -1,20 +1,14 @@
+var generateLink = document.getElementById("generateLinkBtn");
+if (generateLink) {
+    generateLink.addEventListener("click", function (e) {
+        window.location.href = "./studentForm.html";
+    });
+}
+
 var enterClass = document.getElementById("enterClass");
 if (enterClass) {
     enterClass.addEventListener("click", function (e) {
-      window.location.href = "./class-room.html";
+      window.location.href = "./classRoom.html";
     });
 }
       
-var generateLinkContainer = document.getElementById("generateLinkContainer");
-if (generateLinkContainer) {
-    generateLinkContainer.addEventListener("click", function (e) {
-        window.location.href = "./student-form.html";
-    });
-}
-      
-var loginText = document.getElementById("loginText");
-if (loginText) {
-    loginText.addEventListener("click", function (e) {
-        window.location.href = "/";
-    });
-}
