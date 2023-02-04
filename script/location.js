@@ -1,20 +1,16 @@
-const location = document.getElementById("ShareLocation");
+const btn = document.querySelector("#ShareLocation");
 
-if(location){
-    location.addEventListener("click",function(e) { 
-        fu
-    })
-}
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    x.innerHTML = "Geolocation is not supported by this browser.";
+btn.addEventListener("click", function(e){ 
+  getLocation();
+})
+function getLocation(){
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition( function(pos) {
+      window.stop();
+      console.log("Latitude: " + pos.coords.latitude); 
+      console.log("Longitude: " + pos.coords.longitude);
+    });
+  } else { 
+      console.log("Geolocation is not supported by browser."); 
   }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude +
-  "<br>Longitude: " + position.coords.longitude;
 }
