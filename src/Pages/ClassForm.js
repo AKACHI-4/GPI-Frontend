@@ -6,7 +6,7 @@ function ClassForm() {
   return (
     <>
         <div className="my-6">
-            <div className='md:flex md:space-x-8'>
+            <div className='md:flex md:space-x-6'>
                 <div className='grid md:grid-cols-2 gap-5 md:w-full'>
                     <div className=''>
                         <Mapimgtxt />
