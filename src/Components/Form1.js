@@ -110,11 +110,11 @@ function Form1() {
           />
         </div>
         <div class="flex items-center justify-center gap-8">
-        <div class="mt-6 flex items-center justify-center">
-          <button class="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-            <ContentPasteIcon class="mt-3/5 h-5 w-5 fill-white" /> 
-            Generate Class Link
-          </button>
+          <div class="mt-6 flex items-center justify-center">
+            <button class="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+              <ContentPasteIcon class="mt-3/5 h-5 w-5 fill-white" /> 
+              Generate Class Link
+            </button>
           </div>
           <div class="mt-6 flex items-center justify-center">
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
