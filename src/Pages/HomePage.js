@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import site from "../assets/siteview.png";
 
-function LandingPage() {
+function HomePage() {
   return (
     <>
       <div className="container mx-auto px-3">
@@ -19,7 +19,7 @@ function LandingPage() {
           </p>
           <div className="flex items-center space-x-2">
             <Link
-              to="/ClassForm"
+              to="/class-form"
               className="px-8 h-12 flex items-center text-lg text-white bg-blue-600 rounded-lg font-semibold mt-4 hover:bg-blue-700 transition-all duration-200"
             >
               Get Started
@@ -70,4 +70,4 @@ function LandingPage() {
   );
 };
 
-export default LandingPage;
+export default HomePage;
