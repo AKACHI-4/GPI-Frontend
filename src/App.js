@@ -1,6 +1,6 @@
 import './App.css';
 import Layout from './Pages/Layout';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
 import ClassForm from './Pages/ClassForm';
 import StudentForm from './Pages/StudentForm';
