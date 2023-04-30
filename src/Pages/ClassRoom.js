@@ -4,10 +4,9 @@ import Attendeeslist from '../Components/Attendeeslist'
 
 function classroom() {
   return (
-    <div className="flex flex-row bg-transparent w-full overflow-hidden justify-center gap-8 p-6">
-      <Details/>
-      <Attendeeslist />
-
+    <div className="flex flex-col md:flex-row bg-transparent w-full overflow-hidden gap-8 p-6">
+      <Details className="" />
+      <Attendeeslist className="" />
     </div>
   )
 }
