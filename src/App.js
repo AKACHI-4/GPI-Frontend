@@ -12,8 +12,8 @@ function App() {
       <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
-            <Route path="/class-form" element={<ClassForm />} />
             <Route path="/student-form" element={<StudentForm />} />
+            <Route path="/class-form" element={<ClassForm />} />
             <Route path="/class-room" element={<ClassRoom />} />
           </Route>
           {/* <Route path="*" element={<NotFound />} /> */}
