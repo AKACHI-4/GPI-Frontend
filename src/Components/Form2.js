@@ -10,7 +10,6 @@ function Form1() {
     console.log("Form submitted!");
     console.log(`Name: ${name}`);
     console.log(`Email: ${email}`);
-    // Do something with the form data, such as sending it to a server or updating state
   };
 
   return (

@@ -29,13 +29,13 @@ function Navbar() {
             Home
           </Link>
           <Link
-            to="/"
+            to="/student-form"
             className="font-medium md:mr-4 mr-3 text-gray-100 md:text-base text-sm"
           >
             About
           </Link>
         <Link
-          to="/"
+          to="/class-room"
           className="flex items-center md:px-4 md:h-10 h-9 px-3 text-white bg-blue-600 rounded-lg font-semibold md:text-sm text-xs"            
         >
           Login
