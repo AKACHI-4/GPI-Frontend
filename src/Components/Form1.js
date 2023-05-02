@@ -1,5 +1,6 @@
 import { Subject } from '@mui/icons-material';
 import React, { useState } from 'react';
+import ContentPasteIcon from '@mui/icons-material/ContentPaste';
 
 function Form1() {
 
@@ -16,7 +17,7 @@ function Form1() {
 
   return (
     <>  
-      <form onSubmit={handleSubmit} class="mt-4 max-w-md mx-auto">
+      <form onSubmit={handleSubmit} class="my-8 max-w-md mx-auto">
         <div class="mb-4">
           <label class="block text-gray-700 font-bold mb-2" for="name">
             Name:
@@ -108,10 +109,18 @@ function Form1() {
             placeholder="Enter Max Radius"
           />
         </div>
-        <div class="mt-6 flex items-center justify-center">
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-            Submit
-          </button>
+        <div class="flex items-center justify-center gap-8">
+          <div class="mt-6 flex items-center justify-center">
+            <button class="flex items-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+              <ContentPasteIcon class="mt-3/5 h-5 w-5 fill-white" /> 
+              Generate Class Link
+            </button>
+          </div>
+          <div class="mt-6 flex items-center justify-center">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+              Submit
+            </button>
+          </div>
         </div>
       </form>
     </>
