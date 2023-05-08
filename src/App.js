@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Layout from './Pages/Layout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -7,6 +8,18 @@ import StudentForm from './Pages/StudentForm';
 import ClassRoom from './Pages/ClassRoom';
 
 function App() {
+
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    // Make the HTTP request to your Flask backend
+      fetch('/members')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(err => console.log(err))
+  }, []);
+    
+
   return (
     <Router>
       <Routes>
