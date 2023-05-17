@@ -8,18 +8,6 @@ import StudentForm from './Pages/StudentForm';
 import ClassRoom from './Pages/ClassRoom';
 
 function App() {
-
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    // Make the HTTP request to your Flask backend
-      fetch('/members')
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(err => console.log(err))
-  }, []);
-    
-
   return (
     <Router>
       <Routes>

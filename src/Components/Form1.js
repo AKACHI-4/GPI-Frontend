@@ -3,7 +3,6 @@ import React, { useState, useEffect, Component } from 'react';
 import ContentPasteIcon from '@mui/icons-material/ContentPaste';
 import { useNavigate } from 'react-router';
 import yaml from 'js-yaml';
-    // import getCurrentLocation from '../API/geolocationAPI';
 
 function Form1() {
         
@@ -16,20 +15,21 @@ function Form1() {
     section: '', 
     subject: '', 
     subjectCode: '', 
-    radius: '',
-    latitude: '', 
-    longitude: ''
+    radius: 0.0,
+    latitude: 0.0, 
+    longitude: 0.0
   });      
 
   useEffect(() => { 
-    navigator.geolocation.getCurrentPosition(
-      (position) => setData(locdata => setData(locData => ({ 
-        ...locData, 
+    navigator.geolocation.getCurrentPosition((position) => {
+      setData(prevData => ({
+        ...prevData, 
         latitude: position.coords.latitude, 
         longitude: position.coords.longitude
-      }))
-    )
-  )}, [])
+      }));
+    });
+  }, []);
+  
 
   function toStudentForm(e) {
         console.log(e); 
@@ -40,24 +40,7 @@ function Form1() {
         e.preventDefault();        
         const yamlData = yaml.dump(classData);
 
-        // fetch('/class-data', {
-        //   method: 'POST',
-        //   headers: {
-        //     'Content-type': 'application/x-yaml',
-        //   },
-        //   body: yamlData,
-        // })
-        //   .then(res => res.text())
-        //   .then(result => {
-        //     const parsedData = yaml.load(result);
-        //     console.log(parsedData);
-        //   })
-        //   .catch(err => {
-        //     console.error(err);
-        //   });
-
-
-        fetch('http://localhost:5000/class-data', { 
+        fetch('/class-data', { 
           method : 'POST', 
           headers : { 
             'Content-type' : 'application/x-yaml'
@@ -76,7 +59,7 @@ function Form1() {
 
       return (
           <>  
-            <form onSubmit={handleSubmit} className="my-8 max-w-md mx-auto">
+            <form onSubmit={handleSubmit} className="my-8 max-w-md mx-2">
               {/* Name */}
               <div className="mb-4">
                 <label className="block text-gray-700 font-bold mb-2" for="name">
