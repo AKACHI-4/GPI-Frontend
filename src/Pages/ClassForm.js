@@ -8,7 +8,7 @@ function classform() {
       <div className="md:flex md:space-x-6">
         <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4 md:w-full">
           <div className="flex items-center justify-center h-full">
-            <Mapimgtxt />
+            <Mapimgtxt /> 
           </div>
           <div classname="">
             <Form1 />

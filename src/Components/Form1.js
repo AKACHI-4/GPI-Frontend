@@ -11,6 +11,7 @@ function Form1() {
   const [classData, setData] = useState({
     name: '', 
     email: '', 
+    admin_id: '',
     course: '', 
     section: '', 
     subject: '', 
@@ -30,36 +31,33 @@ function Form1() {
     });
   }, []);
   
-
   function toStudentForm(e) {
-        console.log(e); 
-        console.log('Student Form');
-      }
+    console.log(e); 
+    console.log('Student Form');
+  }
 
-      function handleSubmit(e) {
-        e.preventDefault();        
-        const yamlData = yaml.dump(classData);
+  function handleSubmit(e) {
+    e.preventDefault();        
+    const yamlData = yaml.dump(classData)
+    fetch('/class-data', { 
+      method : 'POST', 
+      headers : { 
+        'Content-type' : 'application/x-yaml'
+      }, 
+      body: yamlData,
+    }) 
+    .then((res) => res.text())
+    .then((result) => {
+      console.log(result); 
+    })
+    .catch((err) => { 
+      console.error(err); 
+    })
+  }
 
-        fetch('/class-data', { 
-          method : 'POST', 
-          headers : { 
-            'Content-type' : 'application/x-yaml'
-          }, 
-          body: yamlData,
-        }) 
-        .then((res) => res.json())
-        .then((result) => {
-          console.log(result); 
-        })
-        .catch((err) => { 
-          console.error(err); 
-        })
-      
-      }
-
-      return (
-          <>  
-            <form onSubmit={handleSubmit} className="my-8 max-w-md mx-2">
+  return (
+    <>  
+      <form onSubmit={handleSubmit} className="my-8 max-w-md mx-2">
               {/* Name */}
               <div className="mb-4">
                 <label className="block text-gray-700 font-bold mb-2" for="name">
@@ -86,6 +84,20 @@ function Form1() {
                   value={classData.email}
                   onChange={(e) => setData({...classData, email: e.target.value})}
                   placeholder="Enter your email"
+                />
+              </div>
+              {/* ID */}
+              <div className="mb-4">
+                <label className="block text-gray-700 font-bold mb-2" for="email">
+                  Admin-ID:
+                </label>
+                <input
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="Admin_id"
+                  type="text"
+                  value={classData.admin_id}
+                  onChange={(e) => setData({...classData, admin_id: e.target.value})}
+                  placeholder="Enter Admin ID"
                 />
               </div>
               {/* Course */}
@@ -152,7 +164,7 @@ function Form1() {
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="maxradius"
-                  type="text"
+                  type="number"
                   value={classData.radius}
                   onChange={(event) => setData({...classData, radius: event.target.value})}
                   placeholder="Enter Max Radius"
@@ -173,9 +185,9 @@ function Form1() {
                   </button>
                 </div>
               </div>
-            </form>
-          </>
-        )
-    }
-
-    export default Form1
+      </form>
+    </>
+  )
+}
+    
+export default Form1
