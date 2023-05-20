@@ -2,7 +2,7 @@
   import yaml from 'js-yaml';
   import { useNavigate } from 'react-router';
 
-  function Form1() {
+  function Form2() {
     
     const navigate = useNavigate(); 
     
@@ -105,4 +105,4 @@
     )
   }
 
-  export default Form1;
+  export default Form2
