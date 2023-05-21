@@ -20,35 +20,18 @@ function Classdetails() {
 
   return (
     <div>
-      <ul className='flex flex-col gap-2'>
-        {/* {classData.map((item) => (
-          <li className="text-white font-bold text-xl" key={item._id}>
-            {Object.entries(item).map(([key, value]) => (
-              <div key={key}>
-                {key}: {value}
-              </div>
-            ))}
-            {item.name}: {item.value}
-          </li>
-
-        ))} */}
-
-        {classData.map((item) => (
-          <li className="text-white font-bold text-xl" key={item._id}>
-            <div>Course: {item.course}</div>
-            <div>Section: {item.section}</div>
-            <div>Subject: {item.subject}</div>
-            <div>Subject Code: {item.subjectCode}</div>
-            <div>Faculty Name: {item.name}</div>
-          </li>
-        ))}
-
-        {/* <li className="text-white font-bold text-xl">Course :  </li>
-        <li className="text-white font-bold text-xl">Section : </li>
-        <li className="text-white font-bold text-xl">Subject : </li>
-        <li className="text-white font-bold text-xl">Subject Code : </li>
-        <li className="text-white font-bold text-xl">Faculty Name : </li> */}
-
+      <ul className='flex flex-col gap-4'>
+        {
+          classData.map((item) => (
+            <li key={item._id} className='text-white font-bold text-xl leading-8'>
+              <p>Course: {item.course}</p>
+              <p>Section: {item.section}</p>
+              <p>Subject: {item.subject}</p>
+              <p>Subject Code: {item.subjectCode}</p>
+              <p>Faculty Name: {item.name}</p>
+            </li>
+          ))
+        }
       </ul>
     </div>
   );
