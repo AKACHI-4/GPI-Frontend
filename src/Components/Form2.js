@@ -11,7 +11,8 @@
       rollno: 0, 
       studentid: '',
       latitude: 0.0, 
-      longitude: 0.0
+      longitude: 0.0,
+      present: false
     })
 
     useEffect(() => { 

@@ -166,7 +166,7 @@ function Form1() {
                   id="maxradius"
                   type="number"
                   value={classData.radius}
-                  onChange={(event) => setData({...classData, radius: event.target.value})}
+                  onChange={(event) => setData({...classData, radius: parseFloat(event.target.value)})}
                   placeholder="Enter Max Radius"
                 />
               </div>
