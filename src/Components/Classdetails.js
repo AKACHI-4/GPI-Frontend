@@ -8,7 +8,7 @@ function Classdetails() {
   }, []);
 
   const fetchData = () => {
-    fetch('/class-room')
+    fetch('/GetClassData')
       .then((res) => res.json())
       .then((data) => {
         setData(data);

@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { CheckCircleIcon } from "@heroicons/react/solid";
 import { XCircleIcon } from "@heroicons/react/solid";
 
 function Studentlist() {
+  const [studentData, setData] = useState([]); 
+
+  useEffect(() => {
+    fetchData(); 
+  }, []) 
+
+  const fetchData = () => {
+    fetch('/GetStudentData')
+      .then((res) => res.json())
+      .then((data) => {
+        const newData = data.map((item, index) => ({
+          ...item, 
+          index : index + 1,
+        }))
+        setData(newData); 
+      })
+      .catch((err) => {
+        console.error(err); 
+      })
+  }
+ 
   return (
     <>
       <div className="overflow-x-auto">
@@ -16,45 +37,33 @@ function Studentlist() {
               <th scope="col" className="px-6 py-3 md:py-4 md:px-8">Attendes Status</th>
             </tr>
           </thead>
-          <tbody className="">
-            <tr>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center text-gray-700 font-bold">
-                1
-              </td>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
-                Student 01
-              </td>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
-                01
-              </td>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
-                123 456
-              </td>
-              <td scope="col" className="flex px-6 py-3 md:py-4 md:px-8 justify-center mt-3 md:mt-0">
-                <XCircleIcon className="w-7 h-7 md:w-8 md:h-8 text-red-500" />
-              </td>
-            </tr>
-          </tbody>
-          <tbody className="">
-            <tr>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center text-gray-700 font-bold">
-                2
-              </td>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
-                Student 02
-              </td>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
-                02
-              </td>
-              <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
-                123 457
-              </td>
-              <td scope="col" className="flex px-6 py-3 md:py-4 md:px-8 justify-center mt-3 md:mt-0">
-                <CheckCircleIcon className="w-7 h-7 md:w-8 md:h-8 text-green-500" />
-              </td>
-            </tr>
-          </tbody>
-          
+          {
+            studentData.map((item) => (
+              <tbody className="">
+                <tr>
+                  <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center text-gray-700 font-bold">
+                    {item.index}
+                  </td>
+                  <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
+                    {item.name}
+                  </td>
+                  <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
+                    {item.rollno}
+                  </td>
+                  <td scope="col" className="px-6 py-3 md:py-4 md:px-8 text-center">
+                    {item.studentid}
+                  </td>
+                  <td scope="col" className="flex px-6 py-3 md:py-4 md:px-8 justify-center mt-3 md:mt-0">
+                    {item.present ? (
+                      <CheckCircleIcon className="w-7 h-7 md:w-8 md:h-8 text-green-500" />
+                    ) : (
+                      <XCircleIcon className="w-7 h-7 md:w-8 md:h-8 text-red-500" />
+                    )}
+                  </td>
+                </tr>
+              </tbody>
+            ))
+          }
         </table>
       </div>
     </>
