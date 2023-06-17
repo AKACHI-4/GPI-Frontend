@@ -6,6 +6,8 @@ import HomePage from './Pages/HomePage';
 import ClassForm from './Pages/ClassForm';
 import StudentForm from './Pages/StudentForm';
 import ClassRoom from './Pages/ClassRoom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -13,12 +15,13 @@ function App() {
       <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
-            <Route path="/student-form" element={<StudentForm />} />
+            <Route path="/student-form/:admin_id/:unique_id" element={<StudentForm />} />
             <Route path="/class-form" element={<ClassForm />} />
             <Route path="/class-room" element={<ClassRoom />} />
           </Route>
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
+        <ToastContainer />
     </Router>
   );
 }

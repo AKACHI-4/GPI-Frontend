@@ -1,8 +1,9 @@
 import { Subject } from '@mui/icons-material';
 import React, { useState, useEffect, Component } from 'react';
 import ContentPasteIcon from '@mui/icons-material/ContentPaste';
-import { useNavigate } from 'react-router';
+import { useNavigate, useLocation } from 'react-router';
 import yaml from 'js-yaml';
+import { toast } from 'react-toastify'; 
 
 function Form1() {
         
@@ -32,8 +33,22 @@ function Form1() {
   }, []);
   
   function toStudentForm(e) {
-    console.log(e); 
-    console.log('Student Form');
+    e.preventDefault(); 
+
+    fetch(`/generate-link/${classData.admin_id}`)
+      .then(response => response.json())
+      .then(data => {
+        navigator.clipboard.writeText(data.link)
+        .then(() => {
+          toast.success("Class link has been copied!");
+        })
+        .catch(err => {
+          toast.error("Could not copy unique link to clipboard: ", err);
+        }) 
+      })
+      .catch(err => {
+        console.error("Could not generate unique link: ", err);
+      })
   }
 
   function handleSubmit(e) {
@@ -177,6 +192,13 @@ function Form1() {
                     <ContentPasteIcon className="mt-3/5 h-5 w-5 fill-white" /> 
                     Generate Class Link
                   </button>
+                  {/* <div className="fixed bottom-4 right-4 z-50">
+                    {isLinkCopied && 
+                    <div className="bg-green-500 text-white text-sm py-2 px-4 rounded shadow">        
+                      {flashMessage}
+                    </div>
+                    }
+                  </div> */}
                 </div>
                 {/* Submit */}
                 <div className="mt-6 flex items-center justify-center">
