@@ -4,7 +4,7 @@
   function StudentForm() {
     return (
       <>
-          <div className="bg-transparent flex justify-center items-center my-20 lg:my-28">
+          <div className="bg-transparent flex justify-center items-center mx-0 my-20 lg:mx-10 lg:my-28">
             <Form2 />
           </div>
       </>

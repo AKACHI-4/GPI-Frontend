@@ -24,3 +24,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-input::-webkit-inner-spin-button,
+.custom-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 5s ease-in-out inwards; 
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%); 
+  } 
+  to {
+    transform: translateY(0%); 
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 5s ease-in-out forwards;
+}

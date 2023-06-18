@@ -36,7 +36,7 @@ function Navbar() {
           </Link>
         <Link
           to="/login"
-          className="flex items-center md:px-4 md:h-10 h-9 px-3 text-white bg-blue-600 rounded-lg font-semibold md:text-sm text-xs"            
+          className="flex items-center md:px-4 md:h-10 h-9 px-3 text-white bg-blue-600 rounded-lg font-semibold text-sm"            
         >
           Login
         </Link>

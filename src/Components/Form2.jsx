@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import yaml from 'js-yaml';
 import { useLocation } from 'react-router-dom';
+import '../index.css'; 
 
 function Form2() {
   const location = useLocation(); 
@@ -14,6 +15,8 @@ function Form2() {
     longitude: 0.0,
     present: false
   })
+  const [submitStatus, setsubmitStatus] = useState(false);
+  const [formError, setformError] = useState(false);
 
   useEffect(() => { 
     navigator.geolocation.getCurrentPosition((position) => {
@@ -27,31 +30,42 @@ function Form2() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(urls[2]); 
-    console.log(urls[3]); 
 
-    const yamlData = yaml.dump(studentData);
+    if(studentData.name && studentData.rollno && studentData.studentid) {
+      const yamlData = yaml.dump(studentData);
+      fetch(`/student-data/${urls[2]}/${urls[3]}`, { 
+        method : 'POST', 
+        headers : { 
+          'Content-type' : 'application/x-yaml'
+        }, 
+        body: yamlData,
+      }) 
+      .then((res) => res.json())
+      .then((result) => {
+        console.log(result); 
+        setsubmitStatus(true);
 
-    fetch(`/student-data/${urls[2]}/${urls[3]}`, { 
-      method : 'POST', 
-      headers : { 
-        'Content-type' : 'application/x-yaml'
-      }, 
-      body: yamlData,
-    }) 
-    .then((res) => res.json())
-    .then((result) => {
-      console.log(result); 
-    })
-    .catch((err) => { 
-      console.error(err); 
-    })
+        setTimeout(() => {
+          setsubmitStatus(false);
+        }, 10000)
+
+      })
+      .catch((err) => { 
+        console.error(err); 
+      })
+    } else {  
+      setformError(true);
+
+      setTimeout(() => {
+        setformError(false);
+      }, 10000); 
+    }
 
   }
 
   return (
     <>
-      <form onSubmit={handleSubmit} className="relative border-4 border-gray-700 rounded-2xl p-10 px-6 w-11/12 lg:w-3/12">
+      <form onSubmit={handleSubmit} className="border-4 border-gray-700 rounded-2xl py-10 px-6 w-11/12 lg:w-2/6">
         {/* Name */}
         <div className="mb-4">
           <label className="block text-gray-700 font-bold mb-2" htmlFor="name">
@@ -66,6 +80,7 @@ function Form2() {
             placeholder="Enter your name"
           />
         </div>
+
         {/* Roll No */}
         <div className="mb-4">
           <label className="block text-gray-700 font-bold mb-2" htmlFor="email">
@@ -75,7 +90,7 @@ function Form2() {
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "
             id="rollno"
             type="text"
-            value={studentData.rollno}
+            value={studentData.rollno > 0 ? studentData.rollno : ''}
             onChange={(e) => setData({...studentData, rollno: e.target.value})}
             placeholder="Enter Roll no"
             inputMode="numeric"
@@ -83,6 +98,7 @@ function Form2() {
             pattern="[0-9]*"
           /> 
         </div>
+
         {/* Student ID */}
         <div className="mb-12">
           <label className="block text-gray-700 font-bold mb-2" htmlFor="name">
@@ -97,12 +113,26 @@ function Form2() {
             placeholder="Enter Student ID"
           />
         </div>
+
         {/* Submit */}
         <div className="flex items-center justify-center">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
             Submit
           </button>
         </div>
+
+        {formError && (
+          <div className="fixed rounded-t-xl bottom-0 left-0 right-0 bg-red-500 text-white p-4 text-center text-lg font-semibold animate-slide-up">
+            Kindly fill up all the details.
+          </div>
+        )}
+
+        {submitStatus && (
+          <div className="fixed rounded-t-xl bottom-0 left-0 right-0 bg-green-500 text-white p-4 text-center text-lg font-semibold animate-slide-up">
+            Your details are submitted !!
+          </div>
+        )}
+
       </form>
     </>
   )
