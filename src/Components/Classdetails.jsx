@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function Classdetails() {
   const [classData, setData] = useState([]);
@@ -8,8 +8,11 @@ function Classdetails() {
   }, []);
 
   const fetchData = () => {
-    fetch('/GetClassData')
-      .then((res) => res.json())
+    fetch("/getClassData")
+      .then((res) => {
+        if (!res.ok) throw new Error("Network response was not ok");
+        return res.json();
+      })
       .then((data) => {
         setData(data);
       })
@@ -20,10 +23,13 @@ function Classdetails() {
 
   return (
     <div>
-      <ul className='flex flex-col gap-4'>
-        {
+      <ul className="flex flex-col gap-4">
+        {classData.length > 0 ? (
           classData.map((item) => (
-            <li key={item._id} className='text-white font-bold text-xl leading-8'>
+            <li
+              key={item._id}
+              className="text-white font-bold text-xl leading-8"
+            >
               <p>Course: {item.course}</p>
               <p>Section: {item.section}</p>
               <p>Subject: {item.subject}</p>
@@ -31,7 +37,11 @@ function Classdetails() {
               <p>Faculty Name: {item.name}</p>
             </li>
           ))
-        }
+        ) : (
+          <li className="text-white font-bold text-xl leading-8">
+            No class data available
+          </li>
+        )}
       </ul>
     </div>
   );
