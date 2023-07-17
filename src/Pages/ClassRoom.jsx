@@ -1,6 +1,6 @@
-import React from 'react'
-import Details from '../Components/Details'
-import Attendeeslist from '../Components/Attendeeslist'
+import React from "react";
+import Details from "../Components/Details";
+import Attendeeslist from "../Components/Attendeeslist";
 
 function classroom() {
   return (
@@ -8,7 +8,7 @@ function classroom() {
       <Details className="" />
       <Attendeeslist className="" />
     </div>
-  )
+  );
 }
 
 export default classroom;
