@@ -33,13 +33,16 @@ function Form2() {
 
     if (studentData.name && studentData.rollno && studentData.studentid) {
       const yamlData = yaml.dump(studentData);
-      fetch(`/student-data/${urls[2]}/${urls[3]}`, {
-        method: "POST",
-        headers: {
-          "Content-type": "application/x-yaml",
-        },
-        body: yamlData,
-      })
+      fetch(
+        `http://gpi-v1.us-east-1.elasticbeanstalk.com/student-data/${urls[2]}/${urls[3]}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/x-yaml",
+          },
+          body: yamlData,
+        }
+      )
         .then((res) => res.json())
         .then((result) => {
           console.log(result);

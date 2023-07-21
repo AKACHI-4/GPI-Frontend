@@ -19,7 +19,7 @@ function Form1() {
     subjectCode: "",
     radius: 0.0,
     latitude: 0.0,
-    longitude: 0.0, 
+    longitude: 0.0,
   });
   const [submitStatus, setsubmitStatus] = useState(false);
   const [formError, setformError] = useState(false);
@@ -37,7 +37,9 @@ function Form1() {
   function toStudentForm(e) {
     e.preventDefault();
 
-    fetch(`/generate-link/${classData.admin_id}`)
+    fetch(
+      `http://gpi-v1.us-east-1.elasticbeanstalk.com/generate-link/${classData.admin_id}`
+    )
       .then((response) => response.json())
       .then((data) => {
         navigator.clipboard

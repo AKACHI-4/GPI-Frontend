@@ -10,7 +10,7 @@ function Studentlist() {
   }, []);
 
   const fetchData = () => {
-    fetch("/getStudentData")
+    fetch("http://gpi-v1.us-east-1.elasticbeanstalk.com/getStudentData")
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();
