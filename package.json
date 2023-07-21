@@ -2,7 +2,7 @@
   "name": "gpi-frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://gpi.software",
+  "proxy": "http://gpi-v1.us-east-1.elasticbeanstalk.com",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.10.6",

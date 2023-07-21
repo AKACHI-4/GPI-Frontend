@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Classdetails() {
-  const [classData, setData] = useState([]);
+  const [classData, setData] = useState({});
 
   useEffect(() => {
     fetchData();
@@ -24,19 +24,17 @@ function Classdetails() {
   return (
     <div>
       <ul className="flex flex-col gap-4">
-        {classData.length > 0 ? (
-          classData.map((item) => (
-            <li
-              key={item._id}
-              className="text-white font-bold text-xl leading-8"
-            >
-              <p>Course: {item.course}</p>
-              <p>Section: {item.section}</p>
-              <p>Subject: {item.subject}</p>
-              <p>Subject Code: {item.subjectCode}</p>
-              <p>Faculty Name: {item.name}</p>
-            </li>
-          ))
+        {Object.keys(classData).length > 0 ? (
+          <li
+            key={classData._id}
+            className="text-white font-bold text-xl leading-8"
+          >
+            <p>Course: {classData.course}</p>
+            <p>Section: {classData.section}</p>
+            <p>Subject: {classData.subject}</p>
+            <p>Subject Code: {classData.subjectCode}</p>
+            <p>Faculty Name: {classData.name}</p>
+          </li>
         ) : (
           <li className="text-white font-bold text-xl leading-8">
             No class data available

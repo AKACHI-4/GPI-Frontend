@@ -1,8 +1,0 @@
-runtime: nodejs14
-handlers:
-  - url: /(.*\.(js|css|png|jpg|ico|json))
-    static_files: build/\1
-    upload: build/.*\.(js|css|png|jpg|ico|json)
-  - url: /.*
-    static_files: build/index.html
-    upload: build/index.html

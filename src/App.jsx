@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route
             path="/student-form/:admin_id/:unique_id"
             element={<StudentForm />}
