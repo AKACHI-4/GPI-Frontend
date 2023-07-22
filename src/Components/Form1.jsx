@@ -37,9 +37,7 @@ function Form1() {
   function toStudentForm(e) {
     e.preventDefault();
 
-    fetch(
-      `https://wegrow.study/generate-link/${classData.admin_id}`
-    )
+    fetch(`https://wegrow.study/generate-link/${classData.admin_id}`)
       .then((response) => response.json())
       .then((data) => {
         navigator.clipboard
@@ -70,7 +68,7 @@ function Form1() {
       classData.radius
     ) {
       const yamlData = yaml.dump(classData);
-      fetch("/class-data", {
+      fetch("https://wegrow.study/class-data", {
         method: "POST",
         headers: {
           "Content-type": "application/x-yaml",

@@ -19,7 +19,7 @@ function Studentlist() {
         const newData = data.map((item, index) => ({
           ...item,
           index: index + 1,
-        })) 
+        }));
         setData(newData);
       })
       .catch((err) => {
