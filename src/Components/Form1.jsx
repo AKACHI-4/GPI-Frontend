@@ -38,7 +38,7 @@ function Form1() {
     e.preventDefault();
 
     fetch(
-      `http://gpi-v1.us-east-1.elasticbeanstalk.com/generate-link/${classData.admin_id}`
+      `https://wegrow.study/generate-link/${classData.admin_id}`
     )
       .then((response) => response.json())
       .then((data) => {
