@@ -1,5 +1,5 @@
-import React from 'react';
-import Studentlist from './Studentlist';
+import React from "react";
+import Studentlist from "./Studentlist";
 
 function Attendeeslist() {
   return (

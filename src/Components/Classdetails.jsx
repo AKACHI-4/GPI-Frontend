@@ -8,7 +8,9 @@ function Classdetails() {
   }, []);
 
   const fetchData = () => {
-    fetch("https://wegrow.study/getClassData")
+    fetch(
+      `https://api-dot-adarsh-doing-project-123.el.r.appspot.com/getClassData`
+    )
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();
