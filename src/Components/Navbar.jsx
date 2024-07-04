@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div className="border-b border-gray-700">
-      <div className="container mx-auto py-4 px-4 flex justify-between items-center">
+      <div className="container mx-auto py-4 px-6 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="md:text-4xl text-3xl font-large text-white ">
           <MapOutlinedIcon fontSize="large"/>
@@ -22,7 +22,7 @@ function Navbar() {
           >
             <AiFillGithub size={25} />
           </a>
-          <Link
+          {/* <Link
             to="/"
             className="font-medium md:mr-4 mr-3 text-gray-100 md:text-base text-sm"
           >
@@ -39,7 +39,7 @@ function Navbar() {
           className="flex items-center md:px-4 md:h-10 h-9 px-3 text-white bg-blue-600 rounded-lg font-semibold text-sm"            
         >
           Login
-        </Link>
+        </Link> */}
           {/* {location.pathname !== "/editor" && (
             <Link
               to="/editor"
